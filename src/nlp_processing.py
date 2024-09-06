@@ -3,7 +3,7 @@ import openai
 import os
 
 # Use your actual OpenAI API key, make sure not to expose it in production code.
-openai.api_key='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'
+openai.api_key='Use your actual OpenAI API key, make sure not to expose it in production code'
 def get_response_from_gpt(text):
     try:
         response = openai.ChatCompletion.create(

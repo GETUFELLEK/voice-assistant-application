@@ -10,3 +10,4 @@ def text_to_speech(text, filename="output.mp3"):
 if __name__ == "__main__":
     response_text = "Hello, how can I help you?"
     text_to_speech(response_text)
+    print(response_text)

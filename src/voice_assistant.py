@@ -14,6 +14,7 @@ def main():
 
     # Convert response text to speech and play it
     text_to_speech(response_text)
+    print(text_to_speech)
 
 if __name__ == "__main__":
     main()
