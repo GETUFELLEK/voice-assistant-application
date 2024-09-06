@@ -25,7 +25,7 @@ This project is a simple voice assistant application that leverages speech recog
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/nlp-voice-assistant.git
+   git clone https://github.com/GETUFELLEK/nlp-voice-assistant.git
    cd nlp-voice-assistant
    ```
 
