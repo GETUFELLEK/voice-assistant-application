@@ -24,6 +24,7 @@ def get_response_from_gpt(text):
     except openai.error.OpenAIError as e:
         return f"An error occurred: {str(e)}"
 
+
 if __name__ == "__main__":
     user_input = "Please provide a detailed 3-day vacation plan for a family and friends trip. Include activities, places to visit, and any travel tips."
     response_text = get_response_from_gpt(user_input)

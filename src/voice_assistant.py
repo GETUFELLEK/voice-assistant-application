@@ -9,7 +9,7 @@ def main():
 
     # Process input text and generate a response
     response_text = get_response_from_gpt(recognized_text)
-    print("AI response:", response_text)
+    print("AI response :", response_text)
     print(response_text)
 
     # Convert response text to speech and play it
